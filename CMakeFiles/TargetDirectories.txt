@@ -1,0 +1,3 @@
+C:/Users/BravoCharlieHotel/Documents/Projects/C-world/CMakeFiles/ALL_BUILD.dir
+C:/Users/BravoCharlieHotel/Documents/Projects/C-world/CMakeFiles/ZERO_CHECK.dir
+C:/Users/BravoCharlieHotel/Documents/Projects/C-world/C-world/CMakeFiles/C-world.dir

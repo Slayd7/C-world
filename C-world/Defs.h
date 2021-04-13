@@ -1,0 +1,81 @@
+#pragma once
+
+#include "Vector2D.h"
+
+#define CW_DEBUG
+
+#define MAXMAPSIZEX 200
+#define MAXMAPSIZEY 200
+#define TILESIZE 64
+
+const static double TILERATIO = 1 / (double)TILESIZE;
+
+#define RESOURCES_FOLDER "./resources/"
+
+#define DEBUG_TILE_PERLIN true
+
+const static int FONTSIZES = 6;
+const static int FONTSIZE[FONTSIZES] = { 14, 18, 24, 36, 48, 72 };
+
+const static int TICKSPERSECOND[4] = { 30, 60, 125, 250 };
+const static int TICKDURATION[4] = { 1000 / TICKSPERSECOND[0], 1000 / TICKSPERSECOND[1], 1000 / TICKSPERSECOND[2], 1000 / TICKSPERSECOND[3] };
+
+const int SCREEN_WIDTH = 1920;
+const int SCREEN_HEIGHT = 1080;
+
+#define UI_TEXTPRIMARYCOLOR 0xFFFFFFFF //255, 255, 255, 255 
+#define UI_TEXTSECONDARYCOLOR 0xFFFF00FF //255, 255, 0, 255 
+#define UI_TEXTHIGHLIGHTCOLOR 0x00FFFFFF //0, 255, 255, 255 
+
+#define UI_BORDERCOLOR 0x303030FF	// 60 60 70 255
+#define UI_FILLCOLOR 0x10101EC0  // 30, 30, 40, 192 
+#define UI_BUTTONBORDERCOLOR 0x303030FF // 128, 128, 128, 255
+#define UI_BUTTONFILLINACTIVE 0x606060C0 // 96, 96, 96, 192
+#define UI_BUTTONFILLACTIVE 0xA0A0A0FF // 160, 160, 160, 255
+#define UI_BUTTONPRESSED 0x20202AFF
+#define UI_GIZMOCOLOR 0xBBBBBBBB
+
+#define UI_BORDEROFFSET 10
+#define UI_MAXTEXTWIDTH 600
+#define UI_COLOR_UINT_TO_RGBA(x) (x >> 24 & 0xFF), (x >> 16 & 0xFF), (x >> 8 & 0xFF), (x & 0xFF)
+
+enum UI_LAYOUT {
+	TOP,
+	BOTTOM,
+	LEFT,
+	RIGHT,
+	CENTERED,
+	ALIGN_LEFT,
+	ALIGN_RIGHT,
+};
+
+enum TileType {
+	DeepWater,
+	Water,
+	Sand,
+	Grass,
+	Rock,
+};
+
+enum TEXTFLAGS{
+	BOLD = 1,
+	ITALIC = 2,
+	COLOR_HIGHLIGHT = 4,
+	COLOR_SECONDARY = 8,
+};
+
+inline TEXTFLAGS operator|(TEXTFLAGS a, TEXTFLAGS b)
+{
+	return static_cast<TEXTFLAGS>(static_cast<int>(a) | static_cast<int>(b));
+}
+
+enum DIRECTION {
+	NORTH,
+	NORTHEAST,
+	EAST,
+	SOUTHEAST,
+	SOUTH,
+	SOUTHWEST,
+	WEST,
+	NORTHWEST,
+};

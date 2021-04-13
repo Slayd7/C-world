@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sprites>
+  <tiles>
+    <tile name="forest" location="/forest.png" />
+  </tiles> 
+  
+  <actors>
+    <actor name="lemmy" location="/objects/lemmy.png" />
+  </actors>
+
+  <buildings>
+    <structures> 
+      <wall name="wall0" location="/walls/wall0.png" />
+    </structures>
+  </buildings>
+</sprites>
+
+<fonts>
+  <font name="rns" location="/fonts/Rust_never_sleeps.ttf" />
+  <font name="basic" location="/fonts/Lato-Hairline.ttf" />
+</fonts>

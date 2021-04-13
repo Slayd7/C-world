@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\C-world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\AssetManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\GameEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\InputManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\LTexture.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\Actor.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\Entity.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\external\FastNoise-master\FastNoise.cpp">
+      <Filter>Source Files\External</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\external\pugixml-1.10\src\pugixml.cpp">
+      <Filter>Source Files\External</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\IntroState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\PlayState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\Camera.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\RegularMap.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\Tile.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UI.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UI_BasicBox.cpp">
+      <Filter>Source Files\UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UI_Button.cpp">
+      <Filter>Source Files\UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UI_MoveHandle.cpp">
+      <Filter>Source Files\UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UI_Text.cpp">
+      <Filter>Source Files\UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UIElement.cpp">
+      <Filter>Source Files\UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_DynamicNumber.cpp">
+      <Filter>Source Files\UI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="external\PathFinder-master\src\AStar.cpp">
+      <Filter>Source Files\External\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="external\PathFinder-master\src\Dijkstra.cpp">
+      <Filter>Source Files\External\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="external\PathFinder-master\src\Node.cpp">
+      <Filter>Source Files\External\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Gizmo_Line.cpp">
+      <Filter>Source Files\UI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="LTimer.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringBehavior.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\C-world.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\Defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\AssetManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\GameEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\InputManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\LTexture.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\Actor.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\Entity.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\external\FastNoise-master\FastNoise.h">
+      <Filter>Header Files\External</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\GameState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\IntroState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\PlayState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\Camera.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\Map.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\RegularMap.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\Tile.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UI_BasicBox.h">
+      <Filter>Header Files\UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UI_Button.h">
+      <Filter>Header Files\UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UI_MoveHandle.h">
+      <Filter>Header Files\UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UI_Text.h">
+      <Filter>Header Files\UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\UIElement.h">
+      <Filter>Header Files\UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_DynamicNumber.h">
+      <Filter>Header Files\UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="external\PathFinder-master\src\AStar.h">
+      <Filter>Header Files\External\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="external\PathFinder-master\src\Dijkstra.h">
+      <Filter>Header Files\External\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="external\PathFinder-master\src\Node.h">
+      <Filter>Header Files\External\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="external\PathFinder-master\src\PathAlgorithm.h">
+      <Filter>Header Files\External\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="external\PathFinder-master\src\PathFinder.h">
+      <Filter>Header Files\External\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGizmo.h">
+      <Filter>Header Files\UI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="Gizmo_Line.h">
+      <Filter>Header Files\UI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="LTimer.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehavior.h" />
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\BravoCharlieHotel\Documents\Projects\C-world\C-world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{518EA85F-5CDB-3463-A5EE-3DD05E319068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{488D35D2-4475-30A1-BC7E-4CCEBBC2D3E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{05BA5CA2-C95C-3DAC-ADC4-F18379A9EED1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External">
+      <UniqueIdentifier>{06DC69FD-501A-3C81-963B-6AF8ABE4F108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStates">
+      <UniqueIdentifier>{149A51C2-FAA9-3D3B-8B07-A1FFE7FFA09F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map">
+      <UniqueIdentifier>{35175EFF-CF6A-3308-8009-B80B183EC1CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{DED262AF-1709-3844-9689-8CDE8A210C79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Elements">
+      <UniqueIdentifier>{BD9E59BF-B0C8-3BDE-B357-B54DA37B5E6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FCF2E543-FA7D-38F6-BA45-D70A35CBF49E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{C46578ED-300E-3011-A4FA-1756387382D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{FC87D518-E561-328B-BA34-D4B52AA76C92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External">
+      <UniqueIdentifier>{9BA1EF6E-3B26-3D62-AE35-5BDB949C1382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{C4BAFF2F-0016-30EF-9A23-3F7F2DCF903D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{DC62A14D-8147-3650-A03D-D1EC9DA3DE7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{F43EFBAE-9A7B-3889-BAC3-D07AD6D55145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Elements">
+      <UniqueIdentifier>{1A999A85-888E-3C1B-AD38-00C1DE337A53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External\Pathfinding">
+      <UniqueIdentifier>{5c4a1022-604d-4e63-95bb-1406478becd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External\Pathfinding">
+      <UniqueIdentifier>{04c7f3b7-9e3f-40a8-828a-537016dc0f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Gizmos">
+      <UniqueIdentifier>{5ba0b8fd-7911-4b22-9482-079d08f0b5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Gizmos">
+      <UniqueIdentifier>{8c72fb6c-1adb-403c-a6d2-aee23e4b16b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

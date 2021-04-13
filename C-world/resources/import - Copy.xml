@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sprites>
+  <tiles>
+    <tile name="drysand" location="/terrain/drysand.png" />
+    <tile name="dirt" location="/terrain/dirt.png" />
+    <tile name="grass1" location="/terrain/grass1.png" />
+    <tile name="grass2" location="/terrain/grass2.png" />
+    <tile name="grass3" location="/terrain/grass3.png" />
+    <tile name="grass4" location="/terrain/grass4.png" />
+    <tile name="grass5" location="/terrain/grass5.png" />
+    <tile name="water0" location="/terrain/water0.png" />
+    <tile name="water1" location="/terrain/water1.png" />    
+    <tile name="deepwater0" location="/terrain/deepwater0.png" />
+    <tile name="deepwater1" location="/terrain/deepwater1.png" />
+  </tiles> 
+  
+  <actors>
+    <actor name="lemmy" location="/objects/lemmy.png" />
+  </actors>
+
+  <buildings>
+    <structures> 
+      <wall name="wall0" location="/walls/wall0.png" />
+    </structures>
+  </buildings>
+</sprites>
+
+<fonts>
+  <font name="rns" location="/fonts/Rust_never_sleeps.ttf" />
+  <font name="basic" location="/fonts/basic_sans_serif_7.ttf" />
+</fonts>
